@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anindya Majumder - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+        nav ul {
+            list-style: none;
+            text-align: center;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        #hero {
+            background: #555;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        section {
+            padding: 2rem;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        ul {
+            list-style: disc;
+            margin-left: 2rem;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Welcome to Anindya Majumder's World</h1>
+            <p>Engineering student | Aspiring Data Scientist | Competitive Programmer</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Anindya Majumder, a CSE undergraduate at Chittagong University of Engineering and Technology. I'm passionate about programming, robotics, and leveraging technology to solve real-world problems. Currently, I'm aiming to become a Data Science and Machine Learning Engineer after graduation.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: C, C++, C#, Python, JavaScript, Flutter</li>
+                <li>Areas of Expertise: Data Structures and Algorithms, Object-Oriented Programming</li>
+                <li>Tools: VS Code, Competitive Programming Platforms (Leetcode, Codeforces, etc.)</li>
+                <li>Languages: English, Hindi, Bengali, German</li>
+                <li>Soft Skills: Communication, Problem-Solving, Presentation</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>Python Programming Intern at Brainwave Matrix Solution</li>
+                <li>Python and AI Bootcamp by DevTown</li>
+                <li>Content Writer at CUET Career Club</li>
+                <li>Intern at CodSoft</li>
+                <li>Participated in national and inter-university robotics competitions</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Optimized substring counting algorithm in C++</li>
+                <li>Face the Case competition by IEEE</li>
+                <li>Bizbittle Innovation in Tech case competition</li>
+                <li>BJT Common Emitter Circuit Analysis</li>
+                <li>LFR Robotics Project</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: anindya@example.com</p>
+            <p>Phone: +8801XXXXXXXX</p>
+            <p>Location: Chittagong, Bangladesh</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Anindya Majumder. All rights reserved.</p>
+    </footer>
+</body>
+</html>
